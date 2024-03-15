@@ -4,8 +4,8 @@ import { Request } from "express";
 
 const githubStrategy: GitHubStrategy = new GitHubStrategy(
   {
-    clientID: "96b8e97f403132716507",
-    clientSecret: "b3ae91037a0217d181231039c93b9ba2d816bfea",
+    clientID: "",
+    clientSecret: "",
     callbackURL: "http://localhost:8000",
     passReqToCallback: true,
   },
